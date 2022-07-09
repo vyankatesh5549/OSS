@@ -5,6 +5,7 @@ namespace Banking
 {
     public class Account{
         public double balance{get;set;}
+        public string name { get; set; }// commet added by vahab maner prn 003
         public Account(double amount)
         {
             this.balance=amount;
