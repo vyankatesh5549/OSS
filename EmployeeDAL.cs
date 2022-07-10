@@ -13,6 +13,7 @@ namespace DAL
         public static string ConnectionString = @"server=localhost;user=root;database=knowitdb;password='vyankatesh@2004'";
        
         //ASSIGNMENTS ARE PENDING
+        //this is employee dal file
         public static List<Employee> GetAll()
         {
             List<Employee> employees = new List<Employee>();
